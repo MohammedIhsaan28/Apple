@@ -124,7 +124,7 @@ body {
         @apply font-semibold lg:text-3xl 2xl:text-5xl text-white;
       }
 
-      img {
+      Image {
         @apply container mx-auto w-2/3;
       }
     }
