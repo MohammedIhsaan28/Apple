@@ -87,6 +87,8 @@ body {
   @apply font-medium text-xs;
 }
 
+
+
 @layer components {
   header {
     @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh];
@@ -94,7 +96,7 @@ body {
     nav {
       @apply container mx-auto flex-between px-5 2xl:px-0;
 
-      img {
+      Image {
         @apply cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out;
 
         button {
@@ -105,13 +107,13 @@ body {
       ul {
         @apply flex-center gap-8;
 
-        a {
+        Link {
           @apply hidden md:block text-white opacity-80 font-regular text-sm cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out;
         }
       }
     }
   }
-
+  
   #hero {
     @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
 
