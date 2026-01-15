@@ -1,8 +1,6 @@
 import useMacbookStore from "@/store";
-import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import clsx from "clsx";
-import MacbookModel14 from "./models/Macbook-14";
 import StudioLight from "./three/StudioLight";
 import ModelSwitcher from "./three/ModelSwitcher";
 import { useMediaQuery } from "react-responsive";

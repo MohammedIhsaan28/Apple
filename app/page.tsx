@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Product from "@/components/Product";
 import { ScrollTrigger,SplitText } from "gsap/all";
 import gsap from "gsap";
+import Showcase from "@/components/Showcase";
 
 gsap.registerPlugin(ScrollTrigger,SplitText);
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Navbar/>
         <Hero/>
         <Product/>
+        <Showcase/>
       </main>
   );
 }
