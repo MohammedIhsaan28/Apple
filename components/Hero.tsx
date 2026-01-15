@@ -11,7 +11,6 @@ export default function Hero() {
         if(videoRef.current){
             videoRef.current.playbackRate = 2;
         }
-
     },[]);
 
     return(
