@@ -67,7 +67,7 @@ export default function Showcase() {
                             </p>
 
                             <p>
-                                A brand new display engine delivers breadthtaking processor, color accuracy and brightness. And a next-gen GPU with hardware-accelerated ray tracing brings console-level gaming and pro workflows to iPad Pro.
+                                A brand new display engine delivers breathtaking precision, color accuracy and brightness. And a next-gen GPU with hardware-accelerated ray tracing brings console-level gaming and pro workflows to iPad Pro.
                             </p>
 
                             <p className="text-primary">
