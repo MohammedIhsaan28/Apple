@@ -24,6 +24,9 @@
   scrollbar-color: var(--color-dark-100) var(--color-black);
 }
 
+
+
+
 :root {
   --gradient-color: linear-gradient(
     to bottom right,
@@ -431,4 +434,33 @@ body {
       }
     }
   }
+
+  .img-wrap {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 15px;
+  transition: 0.4s ease;
+}
+
+.neon-img {
+  width: 250px;
+  border-radius: 12px;
+  transition: 0.4s ease;
+}
+
+
+.img-wrap:hover {
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #00ff00);
+  box-shadow: 
+    0 0 10px #ff00ff,
+    0 0 20px #00ffff,
+    0 0 30px #00ff00;
+}
+
+.img-wrap:hover .neon-img {
+  transform: scale(1.05);
+}
+
+
+
 }
